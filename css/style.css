@@ -55,19 +55,16 @@ a {
 }
 .header-menu-item {
 }
-.header-menu-email {
+.header-menu-address {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-phone {
-  color: var(--SLATE, #434455);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.header-menu-address:hover,
+.header-menu-address:focus {
+  color: var(--OCEAN, #404bbf);
 }
 .main {
 }
